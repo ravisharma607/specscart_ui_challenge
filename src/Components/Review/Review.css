@@ -1,0 +1,82 @@
+
+.review_Container{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    margin: 50px auto;
+}
+.review_Container h2{
+    font-size: 32px;
+    letter-spacing: 1px;
+    color: rgb(69, 67, 67);
+}
+.review_content{
+    position: relative;
+    max-width: 900px;
+    width: 100%;
+    margin: 10px 0;
+}
+.image{
+    height: 170px;
+    width: 170px;
+    margin: 10px 0;
+}
+.slide img{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.review_content .slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.review_content .slide p{
+    padding: 0 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 8px 0;
+}
+.slide .star ion-icon{
+    color: #00b3a4;
+    font-size: 28px;
+}
+.review_content .move{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review_content .move ion-icon{
+    font-size: 38px;
+    background-color: #fff;
+    border-radius: 50px;
+box-shadow: 1px 4px 6px 0px #e8dbdb;
+cursor: pointer;
+}
+@media screen and (max-width:950px){
+    .review_Container{
+        padding: 50px 5px;
+        margin: 0 0 60px 0;
+    }
+    .review_content{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .review_content .slide p{
+        text-align: center;
+        font-size: 13px;
+    }
+    .review_Container h2{
+        font-size: 22px;
+        margin: 10px 0;
+    }
+}

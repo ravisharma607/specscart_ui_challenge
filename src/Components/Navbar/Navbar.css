@@ -1,0 +1,110 @@
+.navbar_container{
+    width: 100%;
+    box-shadow:0px 15px 10px -20px black;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background: #fff;
+}
+.navbar_container .topNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.navbar_container .topNav.active{
+    display: none;
+}
+.navbar_container ul{
+    display: flex;
+}
+.navbar_container ul li a{
+    color: #000;
+    margin:0 12px;
+}
+.topNav ul li a{
+    font-weight: 500;
+}
+.bottomNav ul li a{
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.navbar_container .bottomNav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.navbar_container .bottomNav.active{
+    padding:28px 0 18px 400px;
+}
+.navbar_container .logo{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.navbar_container .logo.active{
+    left: 15%;
+}
+.navbar_container .logo img{
+    height: 90px;
+}
+.menuIcon{
+    display: none;
+}
+
+@media screen and (max-width:1050px){
+    .navbar_container ul li a{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:650px){
+    .navbar_container{
+        padding:10px;
+    }
+    .bottomNav .right li img{
+        width: 17px;
+    }
+    .navbar_container .logo img{
+        width: 150px;
+    }
+    .menuIcon{
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:950px){
+    #cross{
+        display: none;
+    }
+    .menuIcon{
+        display: inline-block;
+        font-size: 32px;
+        cursor: pointer;
+    }
+    .navbar_container{
+        display: flex;
+        padding: 10px 30px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .navbar_container .topNav{
+        display: none;
+    }
+    .navbar_container .logo img{
+        height: 50px;
+    }
+    .navbar_container .bottomNav .left{
+        display: none;
+    }
+    .navbar_container .bottomNav{
+        justify-content: flex-end;
+    }
+    .navbar_container .logo{
+        left: 20%;
+        margin-left: 100px;
+    }
+}

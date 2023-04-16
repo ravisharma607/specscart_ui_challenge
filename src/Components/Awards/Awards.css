@@ -1,0 +1,71 @@
+
+.awards_container{
+    width: 90%;
+    padding: 40px 40px;
+    margin: 80px auto 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.awards_container .left{
+    width: 40%;
+}
+.awards_container .right{
+    width: 500px;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.awards_container .right img{
+    width: 800px;
+    height: 200px;
+    margin: 0 auto;
+}
+.awards_container .right .image.moveLeft{
+    transform: translateX(-300px);
+}
+.awards_container .right .image.moveRight{
+    transform: translateX(-10px);
+}
+.awards_container .right .action_dot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.awards_container .right .action_dot .dotColor{
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: rgb(236, 227, 227);
+    margin: 5px 6px;
+    cursor: pointer;
+}
+.awards_container .right .action_dot .dotColor.active{
+    background-color: #00b3a4;
+}
+
+.awards_container .left{
+    padding: 10px 20px;
+}
+.awards_container .left h2{
+    color: rgb(97, 93, 93);
+    font-size: 28px;
+}
+.awards_container .left p{
+    color: gray;
+    line-height: 22px;
+    margin: 10px 0;
+}
+
+@media screen and (max-width:950px){
+    .awards_container{
+        flex-direction: column;
+    }
+    .awards_container .left{
+        width: 90%;
+        text-align: center;
+    }
+}
