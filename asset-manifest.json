@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/specscart_ui_challenge/static/css/main.72285ccd.css",
+    "main.css": "/specscart_ui_challenge/static/css/main.6c0cceaf.css",
     "main.js": "/specscart_ui_challenge/static/js/main.4a046f14.js",
     "static/media/img1.png": "/specscart_ui_challenge/static/media/img1.0fd0e026f39c567e517b.png",
     "static/media/img3.png": "/specscart_ui_challenge/static/media/img3.da27b7bea7e3763c763d.png",
@@ -13,11 +13,11 @@
     "static/media/img2.jpg": "/specscart_ui_challenge/static/media/img2.d1632d8c0e407d243c63.jpg",
     "static/media/img5.jpg": "/specscart_ui_challenge/static/media/img5.c0ecd5b1133ff18876da.jpg",
     "index.html": "/specscart_ui_challenge/index.html",
-    "main.72285ccd.css.map": "/specscart_ui_challenge/static/css/main.72285ccd.css.map",
+    "main.6c0cceaf.css.map": "/specscart_ui_challenge/static/css/main.6c0cceaf.css.map",
     "main.4a046f14.js.map": "/specscart_ui_challenge/static/js/main.4a046f14.js.map"
   },
   "entrypoints": [
-    "static/css/main.72285ccd.css",
+    "static/css/main.6c0cceaf.css",
     "static/js/main.4a046f14.js"
   ]
 }
