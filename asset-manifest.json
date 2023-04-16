@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ravisharma607/specscart_ui_challenge/static/css/main.72285ccd.css",
+    "main.js": "/ravisharma607/specscart_ui_challenge/static/js/main.fec3b23d.js",
+    "static/media/img1.png": "/ravisharma607/specscart_ui_challenge/static/media/img1.0fd0e026f39c567e517b.png",
+    "static/media/img3.png": "/ravisharma607/specscart_ui_challenge/static/media/img3.da27b7bea7e3763c763d.png",
+    "static/media/img4.png": "/ravisharma607/specscart_ui_challenge/static/media/img4.89bec7356227c3fb8ed3.png",
+    "static/media/img9.jpg": "/ravisharma607/specscart_ui_challenge/static/media/img9.b81bb5d52bb2b065db77.jpg",
+    "static/media/img6.jpg": "/ravisharma607/specscart_ui_challenge/static/media/img6.e94fa6bf4eb3b69d0ac8.jpg",
+    "static/media/brands.png": "/ravisharma607/specscart_ui_challenge/static/media/brands.3189f1219b5791bd292e.png",
+    "static/media/img7.jpg": "/ravisharma607/specscart_ui_challenge/static/media/img7.53f68fbca72afff2267b.jpg",
+    "static/media/img8.jpg": "/ravisharma607/specscart_ui_challenge/static/media/img8.04d2913a6dfab8ccca24.jpg",
+    "static/media/img2.jpg": "/ravisharma607/specscart_ui_challenge/static/media/img2.d1632d8c0e407d243c63.jpg",
+    "static/media/img5.jpg": "/ravisharma607/specscart_ui_challenge/static/media/img5.c0ecd5b1133ff18876da.jpg",
+    "index.html": "/ravisharma607/specscart_ui_challenge/index.html",
+    "main.72285ccd.css.map": "/ravisharma607/specscart_ui_challenge/static/css/main.72285ccd.css.map",
+    "main.fec3b23d.js.map": "/ravisharma607/specscart_ui_challenge/static/js/main.fec3b23d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72285ccd.css",
+    "static/js/main.fec3b23d.js"
+  ]
+}
